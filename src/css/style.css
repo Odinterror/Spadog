@@ -1,7 +1,7 @@
 :root {
   /* шрифти */
-  --textPrimary: "Raleway", serif;
-  --textSecond: "Oswald", serif;
+  --fontPrimary: "Raleway", serif;
+  --fontSecond: "Oswald", serif;
   /* кольори */
   --colorTextPrimary: #000000;
   --colorTExtContrast: #ffffff;
@@ -26,4 +26,41 @@ body {
 }
 .nav-link:hover {
   color: var(--colorButton);
+}
+/* Секція Hero */
+.hero-title {
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+}
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  background-color: var(--colorButton);
+  font-family: var(--textSecond);
+}
+/*About*/
+.about {
+  background-color: var(--colorBGSection);
+}
+.about-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 40px;
+  background-color: var(--colorBGSection);
+}
+.about-text {
+  font-size: 32px;
+  line-height: 1.19;
+}
+.about-link {
+  color: var(--textPrimary);
+  line-height: 1.5;
+  background-color: var(--colorButton);
+  font-family: var(--textSecond);
+  text-decoration: none;
 }
